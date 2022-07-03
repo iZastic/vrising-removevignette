@@ -9,7 +9,7 @@
     <LangVersion>latest</LangVersion>
     <Authors>iZastic</Authors>
     <PackageId>$(Authors).$(AssemblyName)</PackageId>
-    <PackageProjectUrl>https://github.com/iZastic/vrising-plugin</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/iZastic/vrising-removevignette</PackageProjectUrl>
     <UnhollowedDllPath>..\BepInEx\unhollowed</UnhollowedDllPath>
   </PropertyGroup>
 

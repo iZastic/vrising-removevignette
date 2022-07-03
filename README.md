@@ -8,7 +8,7 @@ Removes Vignette
 ### Support
 Join the [V Rising Mod Community](https://discord.gg/r87Vdez2Br), and ping `@iZastic#0365`.
 
-Submit a ticket on [GitHub](https://github.com/v-rising/RemoveVignette/issues)
+Submit a ticket on [GitHub](https://github.com/iZastic/vrising-removevignette/issues)
 
 ### Changelog
 `1.0.0`

@@ -13,10 +13,7 @@ internal static class ConnectingView_Patch
     private static void BackgroundButton_OnClick()
     {
         var postProcess = GameObject.Find("Scene PostProcess");
-        Plugin.Logger.LogMessage($"Scene PostProcess Exists: {postProcess != null}");
-
         var volume = postProcess.GetComponent<Volume>();
-        Plugin.Logger.LogMessage($"Volume Exists: {volume != null}");
 
         foreach (var vc in volume.profile.components)
         {

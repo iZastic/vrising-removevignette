@@ -11,5 +11,12 @@ Join the [V Rising Mod Community](https://discord.gg/r87Vdez2Br), and ping `@iZa
 Submit a ticket on [GitHub](https://github.com/iZastic/vrising-removevignette/issues)
 
 ### Changelog
+`1.1.0`
+- Updated for Gloomrot
+
+<details>
+
 `1.0.0`
 - Initial upload
+
+</details>

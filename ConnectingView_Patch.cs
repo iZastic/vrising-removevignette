@@ -9,18 +9,21 @@ namespace RemoveVignette;
 internal static class ConnectingView_Patch
 {
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(ConnectingView), nameof(ConnectingView.BackgroundButton_OnClick))]
-    private static void BackgroundButton_OnClick()
+    [HarmonyPatch(typeof(ConnectingView), nameof(ConnectingView.Update))]
+    private static void Update(ConnectingView __instance)
     {
-        var postProcess = GameObject.Find("Scene PostProcess");
-        var volume = postProcess.GetComponent<Volume>();
-
-        foreach (var vc in volume.profile.components)
+        if (__instance._Ready)
         {
-            if (vc.name.StartsWith("Vignette"))
+            var postProcess = GameObject.Find("Scene PostProcess");
+            var volume = postProcess.GetComponent<Volume>();
+
+            foreach (var vc in volume.profile.components)
             {
-                vc.active = false;
-                break;
+                if (vc.name.StartsWith("Vignette"))
+                {
+                    vc.active = false;
+                    break;
+                }
             }
         }
     }

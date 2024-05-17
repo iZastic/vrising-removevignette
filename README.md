@@ -2,7 +2,7 @@
 Removes Vignette
 
 ### Installation
-- Install [BepInEx](https://github.com/Odjit/BepInEx/releases/tag/vrising-release)
+- Install [BepInEx](https://github.com/decaprime/VRising-Modding/releases/tag/1.690.2)
 - Extract _RemoveVignette.dll_ into _(VRising folder)/BepInEx/plugins_
 
 ### Support
@@ -11,10 +11,13 @@ Join the [modding discord](https://vrisingmods.com/discord) for support and tag 
 Submit a ticket on [GitHub](https://github.com/iZastic/vrising-removevignette/issues)
 
 ### Changelog
-`1.2.0`
-- Updated for 1.0 release
+`1.2.1`
+- Updated for 1.0 RC2 release
 
 <details>
+
+`1.2.0`
+- Updated for 1.0 release
 
 `1.1.0`
 - Updated for Gloomrot

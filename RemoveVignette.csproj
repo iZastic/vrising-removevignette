@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>RemoveVignette</AssemblyName>
     <Description>Removes Vignette</Description>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <Authors>iZastic</Authors>
@@ -12,9 +12,9 @@
     <PackageProjectUrl>https://github.com/iZastic/vrising-removevignette</PackageProjectUrl>
     <UnhollowedDllPath>..\BepInEx\unhollowed</UnhollowedDllPath>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="VRising.Unhollowed.Client" Version="0.6.5.57575090" />
+    <PackageReference Include="VRising.Unhollowed.Client" Version="1.0.2.794360001" />
     <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
   </ItemGroup>
 

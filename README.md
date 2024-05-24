@@ -11,10 +11,13 @@ Join the [modding discord](https://vrisingmods.com/discord) for support and tag 
 Submit a ticket on [GitHub](https://github.com/iZastic/vrising-removevignette/issues)
 
 ### Changelog
-`1.1.0`
-- Updated for Gloomrot
+`1.2.0`
+- Updated for 1.0
 
 <details>
+
+`1.1.0`
+- Updated for Gloomrot
 
 `1.0.0`
 - Initial upload
